@@ -156,7 +156,7 @@ vil_rgb<double> operator/(vil_rgb<T> const& a, double b)
 {
   return vil_rgb<double>(a.r / b, a.g / b, a.b / b);
 }
-#if 0
+#if 1
 template<>
 inline
 vil_rgb<double> operator*(vil_rgb<bool> const&a, double b)
